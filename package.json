@@ -1,0 +1,28 @@
+{
+  "name": "garysuarez-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "framer-motion": "^10.16.1",
+    "next": "13.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.8",
+    "@types/react": "19.1.2",
+    "autoprefixer": "^10.4.21",
+    "eslint": "8.55.0",
+    "eslint-config-next": "13.5.6",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.3.3"
+  }
+}
