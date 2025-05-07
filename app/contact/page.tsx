@@ -14,7 +14,7 @@ export default function ContactPage() {
         Have a question, collaboration idea, or just want to say hi? I'd love to hear from you.
       </p>
       <a
-        href="garys5@byu.edu"
+        href="mailto:garys5@byu.edu?subject=Portfolio Contact&body=Hi Gary, I checked out your portfolio..."
         className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition"
       >
         Send me an email
