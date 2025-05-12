@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
+import type { HTMLMotionProps } from 'framer-motion';
 
 const projects = [
   {
@@ -45,18 +46,22 @@ const projects = [
 export default function ProjectsPage() {
   return (
     <motion.section
-      className="max-w-6xl mx-auto py-16 px-6"
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
+    {...({
+      className:"max-w-6xl mx-auto py-16 px-6",
+      initial:{ opacity: 0, y: 30 },
+      animate:{ opacity: 1, y: 0 },
+      transition:{ duration: 0.6 },
+    } as HTMLMotionProps<'section'>)}
+      >
       <h1 className="text-4xl font-bold mb-10 text-center">Projects</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <motion.div
-            key={index}
-            className="bg-zinc-100 dark:bg-zinc-800 rounded-xl p-5 shadow hover:shadow-lg transition"
-            whileHover={{ scale: 1.03 }}
+          {...({
+            key: {index},
+            className:"bg-zinc-100 dark:bg-zinc-800 rounded-xl p-5 shadow hover:shadow-lg transition",
+            whileHover:{ scale: 1.03 },
+          } as HTMLMotionProps<'section'>)} 
           >
             <Image
               src={project.image}

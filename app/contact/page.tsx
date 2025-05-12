@@ -1,14 +1,17 @@
 'use client';
 import { motion } from 'framer-motion';
+import type { HTMLMotionProps } from 'framer-motion';
 
 export default function ContactPage() {
   return (
     <motion.section
-      className="flex flex-col items-center justify-center text-center h-[70vh] px-4 space-y-6"
-      initial={{ opacity: 0, y: 30 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6 }}
-    >
+    {...({
+        className: "flex flex-col items-center justify-center text-center h-[70vh] px-4 space-y-6",
+        initial: { opacity: 0, y: 30 },
+        animate: { opacity: 1, y: 0 },
+        transition: { duration: 0.6 },
+      } as HTMLMotionProps<'section'>)}
+      >
       <h1 className="text-4xl font-bold">Let's Connect</h1>
       <p className="text-lg text-zinc-600 dark:text-zinc-300 max-w-xl">
         Have a question, collaboration idea, or just want to say hi? I'd love to hear from you.
