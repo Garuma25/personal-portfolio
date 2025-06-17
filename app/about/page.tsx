@@ -21,7 +21,7 @@ export default function AboutPage() {
         <h2 className="text-2xl font-semibold mb-4">🎓 Education</h2>
         <ul className="space-y-2 list-disc list-inside text-zinc-700 dark:text-zinc-300">
           <li><strong>B.S. in Computer Science</strong> – Brigham Young University</li>
-          <li><strong>B.S. in Finance</strong> (in progress) – Brigham Young University</li>
+          <li><strong>B.A.S. in System Administration</strong> (in progress) – Ensign College</li>
           <li><strong>A.S. in Business Analytics</strong> – Ensign College</li>
         </ul>
       </div>

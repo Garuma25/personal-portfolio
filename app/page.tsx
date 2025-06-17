@@ -25,7 +25,7 @@ export default function HomePage() {
       Hi! I'm Gary Suarez — Bachelors in Computer Science
       </h1>
       <p className="text-lg max-w-xl text-gray-600 dark:text-gray-300">
-        Pursuing Finance. Passionate about building scalable cloud-native apps.
+      Focused on System Administration and DevOps. Passionate about building scalable, reliable cloud-native applications.
       </p>
       <a
         href="/projects"
