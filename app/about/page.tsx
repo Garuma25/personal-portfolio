@@ -54,6 +54,15 @@ export default function AboutPage() {
 
         </ul>
       </div>
+      <div className="text-center mt-8">
+        <a
+          href="/Gary-Suarez-Resume.pdf"
+          download
+          className="inline-block px-6 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition"
+        >
+          Download Resume
+        </a>
+      </div>
 
     </motion.section>
   );
