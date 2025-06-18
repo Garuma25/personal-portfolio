@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'UsedPartPicker',
     description: 'Marketplace for comparing used PC part listings with price metrics.',
-    image: '/project3.jpg',
+    image: '/pcPartalizer.png',
     link: 'https://github.com/yourusername/used-part-picker',
   },
   {
