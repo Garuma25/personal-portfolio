@@ -32,13 +32,13 @@ const projects = [
   {
     title: 'Pizza DevOps Project',
     description: 'A scalable pizza ordering system deployed using CI/CD, Docker, and AWS.',
-    image: '/pizza-project.jpg',
+    image: '/pizzaproject.png',
     link: null,
   },
   {
     title: 'Family History Tree Tool',
     description: 'A tool to find connections between ancestors and historical figures.',
-    image: '/fhtl-project.jpg',
+    image: '/banner-check.jpg',
     link: null,
   }
 ];
