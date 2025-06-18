@@ -56,7 +56,7 @@ export default function AboutPage() {
       </div>
       <div className="text-center mt-8">
         <a
-          href="/Gary-Suarez-Resume.pdf"
+          href="/CSresumeGSZ.pdf"
           download
           className="inline-block px-6 py-3 border border-blue-600 text-blue-600 rounded-full hover:bg-blue-600 hover:text-white transition"
         >
