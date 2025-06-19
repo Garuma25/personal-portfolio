@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'Tweeter Web App',
     description: 'A Twitter-style social app built as a class project using TypeScript and AWS serverless technologies (Lambda, API Gateway, DynamoDB).',
-    image: '/project1.jpg',
+    image: '/tweeterImg.png',
     link: 'https://github.com/yourusername/note-app',
   },
   {
@@ -26,7 +26,7 @@ const projects = [
   {
     title: 'Stock Tracker and Predictor',
     description: 'Tracks live stock prices using an API and applies machine learning (LSTM) to forecast future values.',
-    image: '/project4.jpg',
+    image: '/stocktracker.png',
     link: 'https://github.com/yourusername/internship-tracker',
   },
   {
