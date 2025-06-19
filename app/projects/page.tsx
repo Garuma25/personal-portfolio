@@ -7,7 +7,7 @@ import type { HTMLMotionProps } from 'framer-motion';
 const projects = [
   {
     title: 'Tweeter Web App',
-    description: 'A Twitter-style social platform with posting, following, and user feeds. Built in TypeScript with AWS Lambda, API Gateway, and DynamoDB. Deployed via custom JavaScript scripts and zip upload.',
+    description: 'A Twitter-style social app built as a class project using TypeScript and AWS serverless technologies (Lambda, API Gateway, DynamoDB).',
     image: '/project1.jpg',
     link: 'https://github.com/yourusername/note-app',
   },
