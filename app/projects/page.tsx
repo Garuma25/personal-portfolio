@@ -6,8 +6,8 @@ import type { HTMLMotionProps } from 'framer-motion';
 
 const projects = [
   {
-    title: 'Note App',
-    description: 'A full-stack note-taking app using Next.js, DynamoDB, and API Gateway.',
+    title: 'Tweeter Web App',
+    description: 'A Twitter-style social platform with posting, following, and user feeds. Built in TypeScript with AWS Lambda, API Gateway, and DynamoDB. Deployed via custom JavaScript scripts and zip upload.',
     image: '/project1.jpg',
     link: 'https://github.com/yourusername/note-app',
   },
@@ -24,8 +24,8 @@ const projects = [
     link: 'https://github.com/yourusername/used-part-picker',
   },
   {
-    title: 'Internship Tracker',
-    description: 'Web app to track internship applications with job search automation.',
+    title: 'Stock Tracker and Predictor',
+    description: 'Tracks live stock prices using an API and applies machine learning (LSTM) to forecast future values.',
     image: '/project4.jpg',
     link: 'https://github.com/yourusername/internship-tracker',
   },
