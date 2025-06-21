@@ -18,7 +18,7 @@ const projects = [
     link: 'https://github.com/yourusername/terraform-aws',
   },
   {
-    title: 'UsedPartPicker',
+    title: 'PCpartalizer',
     description: 'Marketplace for comparing used PC part listings with price metrics.',
     image: '/pcPartalizer.png',
     link: 'https://github.com/yourusername/used-part-picker',
