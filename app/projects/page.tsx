@@ -33,7 +33,7 @@ const projects = [
     title: 'Pizza DevOps Project',
     description: 'A scalable pizza ordering system deployed using CI/CD, Docker, and AWS.',
     image: '/pizzaproject.png',
-    link: null,
+    link: 'https://github.com/Garuma25/jwt-pizza.git',
   },
   {
     title: 'Family History Tree Tool',
