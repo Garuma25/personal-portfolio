@@ -15,7 +15,7 @@ const projects = [
     title: 'Terraform AWS Setup',
     description: 'Infrastructure-as-code to deploy Lambda + API Gateway + DynamoDB.',
     image: '/terraformaws.png',
-    link: 'https://github.com/yourusername/terraform-aws',
+    link: 'https://github.com/Garuma25/jwt-pizza-service.git',
   },
   {
     title: 'PCpartalizer',
