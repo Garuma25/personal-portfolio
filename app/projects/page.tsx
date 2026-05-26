@@ -15,10 +15,10 @@ const projects = [
     title: 'Terraform AWS Setup',
     description: 'Infrastructure-as-code to deploy Lambda + API Gateway + DynamoDB.',
     image: '/terraformaws.png',
-    link: 'https://github.com/yourusername/terraform-aws',
+    link: 'https://github.com/Garuma25/jwt-pizza-service.git',
   },
   {
-    title: 'UsedPartPicker',
+    title: 'PCpartalizer',
     description: 'Marketplace for comparing used PC part listings with price metrics.',
     image: '/pcPartalizer.png',
     link: 'https://github.com/yourusername/used-part-picker',
@@ -33,7 +33,7 @@ const projects = [
     title: 'Pizza DevOps Project',
     description: 'A scalable pizza ordering system deployed using CI/CD, Docker, and AWS.',
     image: '/pizzaproject.png',
-    link: null,
+    link: 'https://github.com/Garuma25/jwt-pizza.git',
   },
   {
     title: 'Family History Tree Tool',
